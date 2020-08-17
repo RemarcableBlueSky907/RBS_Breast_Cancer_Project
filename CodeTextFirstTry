@@ -3,3 +3,4 @@ library(tidyverse)
 hty.col -> mpg$hty
 ggplot(hty.col) +
   geom.hist()
+print('nothing updated')
