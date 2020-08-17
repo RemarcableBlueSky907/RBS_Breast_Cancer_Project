@@ -1,6 +1,7 @@
 install.packages(tidyverse)
 library(tidyverse)
-hty.col -> mpg$hty
-ggplot(hty.col) +
-  geom.hist()
+
 print('nothing updated')
+
+ggplot(mpg) +
+  geom.point(aes(x = hty, y = displ))
