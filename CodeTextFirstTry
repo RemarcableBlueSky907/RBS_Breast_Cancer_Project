@@ -1,0 +1,5 @@
+install.packages(tidyverse)
+library(tidyverse)
+hty.col -> mpg$hty
+ggplot(hty.col) +
+  geom.hist()
